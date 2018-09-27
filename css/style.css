@@ -1,0 +1,170 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.main-header {
+
+}
+.logo {
+	background-color: #32618D;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.social {
+	font-size: 28px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+.social a {
+	color: #8D9EBE;
+	margin-right: 8px;
+	text-decoration: none;
+}
+.main-menu {
+	text-align: center;
+}
+.main-menu ul{
+	list-style: none;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin: 5px 10px;
+}
+.main-menu ul li a {
+	color: #1E3B71;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.main-menu ul li a:hover {
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+.slider img {
+	width: 100%;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+}
+.oferta-academica .container {
+	display: flex;
+	justify-content: space-around;
+}
+.title-section {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.title-oferta-academica {
+	color: #32618D;
+}
+.card {
+	border: 1px solid #D6D2D2;
+	border-radius: 5px;	
+	overflow: hidden;
+	width: 30%;
+}
+.card-hero {
+	position: relative;
+}
+.card-hero img {
+	width: 100%;
+}
+.btn-card-show {
+	background-color: #FFB606;
+	color: white;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -50px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 20px;
+	width: 100px;
+}
+.btn-card-show:hover {
+	background-color: #e0a006;
+}
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+.card-title {
+	text-align: center;
+}
+.card-title::after {
+	content: '';
+	background-color: #1CA311;
+	display: block;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 70%
+}
+.card-list {
+	color: #999999;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+.card-list li {
+	padding-bottom: 5px;
+}
+.contact .container {
+	display: flex;
+	justify-content: space-around;
+}
+.title-contact {
+	background-color: #8DABC2;
+	color: white;
+}
+.img-contact {
+	margin: 0;
+}
+.img-contact img {
+	width: 100%;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	padding: 0  20px 30px
+}
+.contact-form input[type="text"] {
+	display: block;
+}
+.form-control {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 7px 0;
+	padding: 7px 0;
+	width: 100%;
+}
+.btn-contact {
+	background-color: #32618D;
+	border-radius: 5px;
+	color: #FFB606;
+	font-size: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer {
+	background-color: #32618D;
+	color: #FFB606;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-top: 20px;
+
+}
